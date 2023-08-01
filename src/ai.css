@@ -1,0 +1,78 @@
+.inputroot {
+  display: flex;
+  padding: 0.5rem 0.75rem;
+  align-items: center;
+  border-radius: 0.5rem;
+  background-color: #f9fafb;
+}
+
+.roles {
+  display: block;
+  padding: 0.625rem;
+  border-radius: 0.5rem;
+  border-width: 1px;
+  border-color: #d1d5db;
+  width: 11rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: #111827;
+  background-color: #f9fafb;
+}
+
+.question {
+  display: block;
+  padding: 0.625rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-radius: 0.5rem;
+  border-width: 1px;
+  border-color: #d1d5db;
+  width: 100%;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: #111827;
+  background-color: #fff;
+}
+
+.send {
+  display: inline-flex;
+  padding: 0.5rem;
+  justify-content: center;
+  border-radius: 9999px;
+  color: #2563eb;
+  cursor: pointer;
+
+  :hover {
+    background-color: #dbeafe;
+  }
+}
+
+.icon {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.anwser {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  text-align: left;
+  color: #6b7280;
+}
+
+.spantxt {
+  animation: fadeIn 0.5s ease-in-out forwards;
+  opacity: 0;
+}
+
+/* stylelint-disable-next-line keyframes-name-pattern */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
